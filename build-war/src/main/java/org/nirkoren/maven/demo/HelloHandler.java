@@ -7,4 +7,8 @@ public class HelloHandler {
 		return hello;
 	}
 
+	public String sayGoodbye() {
+		String goodbye = "Seeya later.";
+		return goodbye;
+	}
 }

@@ -13,4 +13,11 @@ public class HelloHandlerTest {
 		assertNotNull(response);
 	}
 
+	@Test
+	public void validateGoodbyeNotNull(){
+		HelloHandler handler = new HelloHandler();
+		String response = handler.sayGoodbye();
+		assertEquals('Seeya later.');
+	}
+
 }
